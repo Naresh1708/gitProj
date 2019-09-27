@@ -13,4 +13,43 @@ welcome to new branch
 
 addedd to test git diff
 
+# To Create local repo
+git init
+
+#to show all branchs and current branch
+git branch -a
+
+
+#To add a file to staging area
+git add newfile.txt
+
+# to commit your changes to switched branch
+git commit -m "message"
+
+# to get status of files in local
+git status 
+
+# to get history of all commits and messages
+git log
+
+# to get head point and checkout branch, commit message information about branches
+git reflog
+
+# To add files to staging area and commit to local repo
+git commit -am "message"
+
+# to list all hidden branches and checkout branch
+git branch -a
+
+# to switch specific branch
+git checkout branchname
+
+# to merge branch to master
+git merge branchname
+
+# to delete a specific branch after merge completion
+git branch -d branchname
+
+ 
+
 ###########
