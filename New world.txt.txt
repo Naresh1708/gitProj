@@ -38,6 +38,21 @@ git reflog
 # To add files to staging area and commit to local repo
 git commit -am "message"
 
+
+# To add origin url
+git remote add origin URL
+
+# to reset remote url
+git remote set-url origin url
+
+#to clone repository to local
+git clone url
+
+#to push local repository to remote
+git push -u origin
+
+
+
 # to list all hidden branches and checkout branch
 git branch -a
 
